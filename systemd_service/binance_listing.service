@@ -1,0 +1,14 @@
+[Unit]
+Description = Binance listing
+
+[Service]
+User = root
+Type = simple
+PIDFile = /root/binance_listing/trades.pid
+WorkingDirectory=/root/binance_listing
+ExecStart = /usr/bin/nodejs /root/binance_listing/index.js
+Restart = on-abort
+
+[Install]
+WantedBy = multi-user.target
+
