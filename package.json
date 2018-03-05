@@ -1,0 +1,15 @@
+{
+  "name": "binance_listing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-binance-api": "^0.3.8",
+    "nodemailer": "^4.4.1"
+  }
+}
