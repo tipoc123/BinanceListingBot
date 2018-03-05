@@ -2,7 +2,7 @@
 
 Bot for detecting new coins in the binance exchange and fast taking profit (buy and then sell more expensive). Also it supports email notification.
 
-You must change next lines in the index.js:
+You must change next lines in the index.js file:
 ```
 const APIKEY = '[YOUR APIKEY]';
 const APISECRET = '[YOUR APISECRET]';
