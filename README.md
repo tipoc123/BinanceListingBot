@@ -23,3 +23,11 @@ var mailOptions = {
 };
 
 ```
+
+Also you may change to suit your needs:
+```
+const priceLimit = 0.0001; //in BTC
+const deposit = 0.01; //in BTC
+...
+const sellPrice = price * 1.5;
+```
